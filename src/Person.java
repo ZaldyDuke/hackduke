@@ -24,11 +24,11 @@ public class Person {
 	
 	public int getRating(String foodItem) {
 		if(food.indexBroadNames(foodItem) >= 0) {
-			return food.indexBroadNames(foodItem);
+			return broadRatings.get( food.indexBroadNames(foodItem) );
 		} else if(food.indexPizzaNames(foodItem) >= 0) {
-			return food.indexPizzaNames(foodItem);
+			return pizzaRatings.get( food.indexPizzaNames(foodItem) );
 		} else if(food.indexSandwichNames(foodItem) >= 0) {
-			return food.indexSandwichNames(foodItem);
+			return sandwichRatings.get( food.indexSandwichNames(foodItem) );
 		} else {
 			return -1;
 		}

@@ -6,21 +6,21 @@ Sizes: Regular
 Calories: 630
 Price: 5.72
 
-Name: BigJohn
+Name: Roast Beef
 Meat: Roast Beef
 Condiments: Mayonnaise
 Sizes: Regular
 Calories: 540
 Price: 5.72
 
-Name: TurkeyTom
+Name: Turkey
 Meat: Turkey
 Condiments: Mayonnaise
 Sizes: Regular
 Calories: 510
 Price: 5.72
 
-Name: TheVeggie
+Name: Veggie
 Meat: none
 Condiments: Mayonnaise
 Sizes: Regular

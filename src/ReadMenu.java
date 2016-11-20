@@ -38,10 +38,10 @@ public class ReadMenu {
 	            	condiments=Arrays.copyOfRange(line, 1, line.length);
 	            }
 	            else if(category.equals("Sizes:")){
-	            	System.out.println("reading sizes");
+	            	//System.out.println("reading sizes");
 	            	sizes= Arrays.copyOfRange(line, 1, line.length);
 	            	for(int i=0; i<sizes.length; i++){
-	            		System.out.println(sizes[i]);
+	            		//System.out.println(sizes[i]);
 	            	}
 	            }
 	            else if(category.equals("Calories:")){
@@ -50,7 +50,7 @@ public class ReadMenu {
 	            else if(category.equals("Price:")){
 	            	prices=Arrays.copyOfRange(line, 1, line.length);
 	            	for(int i=0; i<sizes.length; i++){
-	            		System.out.println(name);
+	            		//System.out.println(name);
 	            		FoodItem foodItem = new FoodItem(name, sizes[i], meats, condiments, Integer.parseInt(calories[i]), Double.parseDouble(prices[i]));
 	            		myFoodList.add(foodItem);
 	            	}

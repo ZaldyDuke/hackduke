@@ -1,11 +1,11 @@
 
 public class Food {
 	
-	private String[] broadNames = new String[]{"pizzaRating", "sandwichRating"};
-	private String[] pizzaNames = new String[]{"cheeseRating", "pepperoniRating", "sausageRating", "mushroomRating", 
-				"onionRating", "baconRating", "oliveRating"};
-	private String[] sandwichNames = new String[]{"whiteBreadRating", "sourdoughRating", "wholeWheatRating", "veggieRating",
-				"chickenRating", "turkeyRating", "roastBeefRating"};
+	private String[] broadNames = new String[]{"Pizza", "Sandwiches"};
+	private String[] pizzaNames = new String[]{"Cheese", "Pepperoni", "Sausage", "Mushroom", 
+				"Onion", "Bacon", "Olive"};
+	private String[] sandwichNames = new String[]{"White", "Sourdough", "Pepe", "Veggie",
+				"Chicken", "Turkey", "Roast"};
 	
 	public String[] getBroadNames() {return broadNames;}
 	public String[] getPizzaNames() {return pizzaNames;}

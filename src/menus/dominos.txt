@@ -13,9 +13,9 @@ Sizes: Small Medium Large
 Calories: 1165 1563 2121
 Price: 9.24 11.49 13.73
 
-Name: BuffaloChicken
-Meat: Chicken
-Condiments: Spicy
+Name: Sausage
+Meat: Beef
+Condiments: none
 Sizes: Small Medium Large
-Calories: 1240 1665 2275
-Price: 12.99 14.99 16.99
+Calories: 1165 1563 2121
+Price: 9.24 11.49 13.73
